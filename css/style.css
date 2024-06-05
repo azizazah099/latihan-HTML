@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-image: url("bluee.jpg");
+
+}
+.gg-menu-cake {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 18px
+}
+.gg-menu-cake::after,
+.gg-menu-cake::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    background: currentColor;
+    border-radius: 22px
+}
+.gg-menu-cake::before {
+    width: 18px;
+    box-shadow: 0 -4px 0,0 -8px 0;
+    left: 1px;
+    bottom: 2px
+}
+.gg-menu-cake::after {
+    width: 4px;
+    height: 4px;
+    left: 8px
+}
+img.one { float: bottom;
+    float: right;
+    margin: 0px;
+    width: 500px;
+    height: 500px
+   
+ }
+ img.two { float: bottom;
+    float: left;
+    margin: 0px;
+    width: 500px;
+    height: 500px
+   
+
+ }
+
+  i.fasfabars{font-size:60px;color:lightblue;
+    float: top;
+    float: right;
+
+  }
+.button {
+    background-color: #6495ED;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: auto;
+    cursor: pointer;
+    border-style: dotted;
+    border-width: 10px;
+    
+  }
+  p{
+    box-align: center ;
+    font-size: 50px
+  }
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Sofia", sans-serif;
+}
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+
+}
+   
+
+     
